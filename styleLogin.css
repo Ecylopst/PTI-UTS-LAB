@@ -1,0 +1,49 @@
+body {
+    font-family: 'Josefin Sans';
+}
+
+#logo img{
+    width: 80px;
+}
+
+/* =============================== CONTAINER =================================== */
+
+#isi {
+    margin-top: 130px; 
+    color: white;
+    width: 500px;
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2); 
+    background: transparent; 
+    border: 2px solid rgba(255, 255, 255, .2);
+}
+
+.input input{
+    width: 300px; 
+    height: 20px; 
+    text-align: center;
+}
+
+/* =============================== FOOTER =================================== */
+.wave {
+    bottom: -40px;
+}
+
+#kiri img {
+    width: 50px;
+}
+
+.bawah {
+    width: 100%;
+    height: fit-content;
+}
+
+.bawah i {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+#kanan a{
+    text-decoration: none;
+}

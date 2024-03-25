@@ -1,0 +1,49 @@
+body {
+    font-family: 'Josefin Sans';
+}
+
+#logo img{
+    width: 80px;
+}
+
+/* =============================== CONTAINER =================================== */
+
+#balance {
+    height: 300px;
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2); 
+    background: transparent; 
+    border: 2px solid rgba(255, 255, 255, .2);
+}
+
+#transaksi {
+    height: 600px;
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2); 
+    background: transparent; 
+    border: 2px solid rgba(255, 255, 255, .2);
+}
+
+/* =============================== FOOTER =================================== */
+.wave {
+    bottom: -40px;
+}
+
+#kiri img {
+    width: 50px;
+}
+
+.bawah {
+    width: 100%;
+    height: fit-content;
+}
+
+.bawah i {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+#kanan a{
+    text-decoration: none;
+}

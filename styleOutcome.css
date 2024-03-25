@@ -1,0 +1,110 @@
+body {
+    font-family: 'Josefin Sans';
+}
+
+#logo img{
+    width: 80px;
+}
+
+/* =============================== CONTAINER =================================== */
+
+.island {
+    width: 80%;
+    height: 500px;
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2); 
+    background: transparent; 
+    border: 2px solid rgba(255, 255, 255, .2);
+}
+
+/* =============================== ALERT =================================== */
+
+.iniAlert{
+    position: fixed;
+    top: 120px;
+    right: 20px;
+}
+
+.isiAlert.gagal{
+    --color: #e90c0c;
+}
+
+.isiAlert{
+    --color: #0abf30;
+    border-left: 10px solid var(--color) ;
+    width: 350px;
+    border-radius: 7px;
+    background-color: #f8f9fa;
+    animation: show 0.5s ease forwards
+}
+
+.isiAlert #iniLogo{
+    color: var(--color);
+    font-size: 45px;
+}
+.isiAlert .judul{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#tombolX {
+    cursor: pointer;
+}
+
+
+.isiAlert::before{
+    width: 100%;
+    height: 3px;    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color);    
+    content: '';
+
+    animation: habis 3s linear forwards
+}
+
+@keyframes show{
+    0%{
+        transform: translateX(100%);
+    }
+    40%{
+        transform: translateX(-5%);
+    }
+    80%{
+        transform: translateX(10%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes habis{
+    to{
+        width: 0;
+    }
+}
+
+/* =============================== FOOTER =================================== */
+.wave {
+    bottom: -40px;
+}
+
+#kiri img {
+    width: 50px;
+}
+
+.bawah {
+    width: 100%;
+    height: fit-content;
+}
+
+.bawah i {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+#kanan a{
+    text-decoration: none;
+}
